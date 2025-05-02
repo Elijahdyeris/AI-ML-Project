@@ -1,0 +1,6452 @@
+[
+  {
+    "scenario_id": "scen_f9b1ec2e5492",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_d857adae0006",
+        "timestamp": "2023-12-01T09:39:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_0c0c71ec19f8",
+        "keystroke_features": {
+          "avg_key_dwell_time": 123.6,
+          "typing_speed": 85.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_e6b98327eff7",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_63d3cbc4e19a",
+        "timestamp": "2023-12-01T10:53:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_fc692bda6eab",
+        "keystroke_features": {
+          "avg_key_dwell_time": 107.5,
+          "typing_speed": 76.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_a85a9c18ddd0",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_204fb86625b1",
+        "timestamp": "2023-12-01T09:59:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_08823d305a8b",
+        "keystroke_features": {
+          "avg_key_dwell_time": 88.9,
+          "typing_speed": 76.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_9fe4f9db461f",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_8aab88e96260",
+        "timestamp": "2023-12-01T10:08:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_6d0c640953b3",
+        "keystroke_features": {
+          "avg_key_dwell_time": 104.3,
+          "typing_speed": 71.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_db64f94e11ed",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_74625c1d95fb",
+        "timestamp": "2023-12-01T10:21:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_46c81ff4aca3",
+        "keystroke_features": {
+          "avg_key_dwell_time": 103.8,
+          "typing_speed": 68.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_447178ca4070",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_af3a155f40b6",
+        "timestamp": "2023-12-01T10:01:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_0635f3ddccb6",
+        "keystroke_features": {
+          "avg_key_dwell_time": 112.6,
+          "typing_speed": 82.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_8446ba8b5f1a",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_d5779661fe56",
+        "timestamp": "2023-12-01T09:13:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_1a5907460420",
+        "keystroke_features": {
+          "avg_key_dwell_time": 100.3,
+          "typing_speed": 65.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_bd516349ea32",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_6cf995b5a1e3",
+        "timestamp": "2023-12-01T09:14:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_50c5516dfcd6",
+        "keystroke_features": {
+          "avg_key_dwell_time": 109.5,
+          "typing_speed": 87.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_97534d2f555e",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_59ac6667ef80",
+        "timestamp": "2023-12-01T10:31:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_846ba8867d71",
+        "keystroke_features": {
+          "avg_key_dwell_time": 85.4,
+          "typing_speed": 89.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_3a746b0d5dae",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_f5990da6776c",
+        "timestamp": "2023-12-01T10:27:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_14f4077fd942",
+        "keystroke_features": {
+          "avg_key_dwell_time": 116.6,
+          "typing_speed": 70.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_b3be47322266",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_a795be6c8c32",
+        "timestamp": "2023-12-01T09:51:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_a7ac65e62b14",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.5,
+          "typing_speed": 69.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_243c06d83cb5",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_89dd6d813a10",
+        "timestamp": "2023-12-01T10:02:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_732af8f51754",
+        "keystroke_features": {
+          "avg_key_dwell_time": 96.2,
+          "typing_speed": 71.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_079a0fc751ef",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_a66d28c4d6c5",
+        "timestamp": "2023-12-01T09:25:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ea51192c9f29",
+        "keystroke_features": {
+          "avg_key_dwell_time": 105.1,
+          "typing_speed": 85.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_e7e3b69ace42",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_24a73791ce3c",
+        "timestamp": "2023-12-01T10:16:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_5d6c991e60dc",
+        "keystroke_features": {
+          "avg_key_dwell_time": 104.1,
+          "typing_speed": 75.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_c3a970c1cf3c",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_6cb92fc4e713",
+        "timestamp": "2023-12-01T10:16:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_8a15f4d938f1",
+        "keystroke_features": {
+          "avg_key_dwell_time": 96.4,
+          "typing_speed": 79.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_934156fc1c98",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_22a796b9a81f",
+        "timestamp": "2023-12-01T10:11:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_8aeeea4ab77d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 85.6,
+          "typing_speed": 72.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_7e817ac11ac1",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_14288e5777f8",
+        "timestamp": "2023-12-01T09:18:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_c97528159ad9",
+        "keystroke_features": {
+          "avg_key_dwell_time": 118.7,
+          "typing_speed": 88.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_6fbb65470eb4",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_a878f189a7a7",
+        "timestamp": "2023-12-01T09:15:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ccc9bac62f98",
+        "keystroke_features": {
+          "avg_key_dwell_time": 95.1,
+          "typing_speed": 81.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_9edeb1403a4f",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_c3ebeb4ba5f8",
+        "timestamp": "2023-12-01T09:21:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_d956504b7964",
+        "keystroke_features": {
+          "avg_key_dwell_time": 97.8,
+          "typing_speed": 81.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_fcf443570084",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_4bfd2578c279",
+        "timestamp": "2023-12-01T10:38:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_be216843ca0e",
+        "keystroke_features": {
+          "avg_key_dwell_time": 100.9,
+          "typing_speed": 73.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_bee4199ec8a1",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_f195d836a9b6",
+        "timestamp": "2023-12-01T10:46:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_a048958974df",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.5,
+          "typing_speed": 71.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_2b6e3fc24e54",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_c10849e9991c",
+        "timestamp": "2023-12-01T10:48:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_b37d2161a317",
+        "keystroke_features": {
+          "avg_key_dwell_time": 99.6,
+          "typing_speed": 81.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_7e11a75d4949",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_a3c81d421d86",
+        "timestamp": "2023-12-01T09:22:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_e08d1c4a0323",
+        "keystroke_features": {
+          "avg_key_dwell_time": 103.8,
+          "typing_speed": 72.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_ce8401151bb9",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_b3d0f797d9e2",
+        "timestamp": "2023-12-01T10:37:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_1693fa48e3e1",
+        "keystroke_features": {
+          "avg_key_dwell_time": 97.3,
+          "typing_speed": 75.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_8856456e4366",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_2df1f6f7757c",
+        "timestamp": "2023-12-01T09:33:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_b42dc56e405c",
+        "keystroke_features": {
+          "avg_key_dwell_time": 105.1,
+          "typing_speed": 68.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_1143273b02b8",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_daeb47da7c60",
+        "timestamp": "2023-12-01T09:13:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_79eab9fd92ec",
+        "keystroke_features": {
+          "avg_key_dwell_time": 88.7,
+          "typing_speed": 85.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_7dfc30868df4",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_20cc1fa00194",
+        "timestamp": "2023-12-01T09:25:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_bb1756f5fd0b",
+        "keystroke_features": {
+          "avg_key_dwell_time": 101.6,
+          "typing_speed": 69.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_29a256950801",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_21351a20a5e9",
+        "timestamp": "2023-12-01T10:52:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_6fde14dd61c4",
+        "keystroke_features": {
+          "avg_key_dwell_time": 98.5,
+          "typing_speed": 60.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_15e8cbad91d9",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_3a0dde3c91b1",
+        "timestamp": "2023-12-01T09:20:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_f046b59bc90c",
+        "keystroke_features": {
+          "avg_key_dwell_time": 115.6,
+          "typing_speed": 85.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_fe6bff18d643",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_95e31a98d5b4",
+        "timestamp": "2023-12-01T10:04:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_7d61791c54fe",
+        "keystroke_features": {
+          "avg_key_dwell_time": 124.9,
+          "typing_speed": 81.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_dc37d186e5f6",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_d925905dcd15",
+        "timestamp": "2023-12-01T09:17:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_85d8d993fad2",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.5,
+          "typing_speed": 77.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_7d53e2842b8e",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_585c5645ce5d",
+        "timestamp": "2023-12-01T10:11:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_93491af18dfd",
+        "keystroke_features": {
+          "avg_key_dwell_time": 95.5,
+          "typing_speed": 69.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_90551481f0c2",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_dcd7efe5d9a8",
+        "timestamp": "2023-12-01T09:33:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_b30ad7c1ff5d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 91.2,
+          "typing_speed": 69.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_4dae6bcafd5d",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_6d8c286777ff",
+        "timestamp": "2023-12-01T10:28:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_e1e561ae7238",
+        "keystroke_features": {
+          "avg_key_dwell_time": 117.1,
+          "typing_speed": 66.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_261ea2a5b682",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_45a5f9cc7490",
+        "timestamp": "2023-12-01T10:56:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_38360bd74349",
+        "keystroke_features": {
+          "avg_key_dwell_time": 94.1,
+          "typing_speed": 76.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_bc3d6a5b8235",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_5a9bc376207b",
+        "timestamp": "2023-12-01T10:38:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_0f4f5472fa72",
+        "keystroke_features": {
+          "avg_key_dwell_time": 88.8,
+          "typing_speed": 70.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_3351b73aec81",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_248a15246e38",
+        "timestamp": "2023-12-01T10:34:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_834dd9ba5f41",
+        "keystroke_features": {
+          "avg_key_dwell_time": 91.4,
+          "typing_speed": 66.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_dfeb40549dda",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_79da23e54dbc",
+        "timestamp": "2023-12-01T10:46:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_e94584c3d5eb",
+        "keystroke_features": {
+          "avg_key_dwell_time": 91.4,
+          "typing_speed": 71.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_b833a36bee11",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_10833d80c7b6",
+        "timestamp": "2023-12-01T09:13:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_4d24473f5408",
+        "keystroke_features": {
+          "avg_key_dwell_time": 108.3,
+          "typing_speed": 62.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_b5e69c63118b",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_1021a4da28a1",
+        "timestamp": "2023-12-01T10:01:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_bb779fa888dc",
+        "keystroke_features": {
+          "avg_key_dwell_time": 104.0,
+          "typing_speed": 74.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_ff8ad161a824",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_10d7c8b63367",
+        "timestamp": "2023-12-01T10:33:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ed481a393bb3",
+        "keystroke_features": {
+          "avg_key_dwell_time": 115.8,
+          "typing_speed": 63.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_be641a69c772",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_0cee8c4fe9d2",
+        "timestamp": "2023-12-01T09:58:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_12138d550e9d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 124.0,
+          "typing_speed": 78.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_8c1fd8988b44",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_5e65ef3ef14e",
+        "timestamp": "2023-12-01T09:21:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_cedaf8d1c990",
+        "keystroke_features": {
+          "avg_key_dwell_time": 116.3,
+          "typing_speed": 85.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_a21ce1c3f8e3",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_cba6770628a5",
+        "timestamp": "2023-12-01T09:56:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_000d04a19245",
+        "keystroke_features": {
+          "avg_key_dwell_time": 103.1,
+          "typing_speed": 62.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_8808b2500ed3",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_d7d6120d95af",
+        "timestamp": "2023-12-01T09:47:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_451aae64b2f8",
+        "keystroke_features": {
+          "avg_key_dwell_time": 104.4,
+          "typing_speed": 73.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_41eb357f3d75",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_32d4530c42c4",
+        "timestamp": "2023-12-01T10:39:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_9b0e5f23c49f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 96.1,
+          "typing_speed": 72.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_0b0956097875",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_04806290838b",
+        "timestamp": "2023-12-01T09:16:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_f0877f27bee2",
+        "keystroke_features": {
+          "avg_key_dwell_time": 109.7,
+          "typing_speed": 63.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_c08107abdfe7",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_f35597b1b175",
+        "timestamp": "2023-12-01T10:14:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_c1749d001a98",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.5,
+          "typing_speed": 68.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_0e666e9c2b09",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_113498bdeeb9",
+        "timestamp": "2023-12-01T09:34:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_b7e173b87d7e",
+        "keystroke_features": {
+          "avg_key_dwell_time": 118.5,
+          "typing_speed": 88.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_eb105d697564",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_9b503b243fd0",
+        "timestamp": "2023-12-01T10:24:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_adc98adbc54d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 117.9,
+          "typing_speed": 60.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_f149ada69e96",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_7ccec54585a9",
+        "timestamp": "2023-12-01T10:23:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_056468ff0751",
+        "keystroke_features": {
+          "avg_key_dwell_time": 101.4,
+          "typing_speed": 60.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_5755d8950a5e",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_d67ed6f4c93a",
+        "timestamp": "2023-12-01T09:45:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_5a33f8ea6678",
+        "keystroke_features": {
+          "avg_key_dwell_time": 105.4,
+          "typing_speed": 70.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_969037ee18ec",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "faculty",
+    "description": "faculty accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_34aada0a343f",
+        "timestamp": "2023-12-01T10:35:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_874c8cac7d0f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 93.5,
+          "typing_speed": 81.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_cf948301f657",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_61a588f551a8",
+        "timestamp": "2023-12-01T09:44:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_3d9b1a4e1f1b",
+        "keystroke_features": {
+          "avg_key_dwell_time": 106.9,
+          "typing_speed": 77.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_ee2b8b8c7427",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "graduate",
+    "description": "graduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_1674c4197282",
+        "timestamp": "2023-12-01T10:25:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_63bf009b30d5",
+        "keystroke_features": {
+          "avg_key_dwell_time": 105.6,
+          "typing_speed": 81.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_fb0f57fccba3",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "undergraduate",
+    "description": "undergraduate accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_049cc6221d99",
+        "timestamp": "2023-12-01T09:41:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_2744252885eb",
+        "keystroke_features": {
+          "avg_key_dwell_time": 88.6,
+          "typing_speed": 68.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_8accf80f0431",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_0c2f709aeaa9",
+        "timestamp": "2023-12-01T09:19:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_a2c1eb6bd21d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 124.2,
+          "typing_speed": 81.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_99302e2431d0",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_0e8fd96a2979",
+        "timestamp": "2023-12-01T10:09:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_eab3adda8b45",
+        "keystroke_features": {
+          "avg_key_dwell_time": 113.8,
+          "typing_speed": 82.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_26d7e7a36801",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "research",
+    "description": "research accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_8ca34d196109",
+        "timestamp": "2023-12-01T10:49:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_62a2d976af13",
+        "keystroke_features": {
+          "avg_key_dwell_time": 101.6,
+          "typing_speed": 87.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_b4555428b612",
+    "scenario_type": "normal_transition",
+    "scenario_subtype": "semester_end",
+    "role_category": "admin",
+    "description": "admin accessing services at end of term",
+    "authentication_events": [
+      {
+        "event_id": "auth_15f84824305e",
+        "timestamp": "2023-12-01T10:46:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_193c98f45100",
+        "keystroke_features": {
+          "avg_key_dwell_time": 95.7,
+          "typing_speed": 67.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_ae0a52cf52f7",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_d47798e804e6",
+        "timestamp": "2023-12-01T10:58:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_9c07d33ca47b",
+        "keystroke_features": {
+          "avg_key_dwell_time": 124.5,
+          "typing_speed": 68.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_8ca34c07f5ba",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_8c9a8d5ce092",
+        "timestamp": "2023-12-01T10:52:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_d298506798b5",
+        "keystroke_features": {
+          "avg_key_dwell_time": 101.1,
+          "typing_speed": 63.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_8d4cced7cb94",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_98c26cfa7ec4",
+        "timestamp": "2023-12-01T09:42:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_8b6f44abaf8f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 115.7,
+          "typing_speed": 84.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_d33bbc5c63b1",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_2c54d242f4e8",
+        "timestamp": "2023-12-01T10:02:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_8e67e0dadcba",
+        "keystroke_features": {
+          "avg_key_dwell_time": 90.2,
+          "typing_speed": 73.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_7414e05851a3",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_bb8ffc770109",
+        "timestamp": "2023-12-01T10:30:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_fe0f7cb97c22",
+        "keystroke_features": {
+          "avg_key_dwell_time": 117.3,
+          "typing_speed": 63.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_f94714d3fd77",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_e6c855b629ce",
+        "timestamp": "2023-12-01T09:57:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_f3630ca2ecf4",
+        "keystroke_features": {
+          "avg_key_dwell_time": 112.5,
+          "typing_speed": 79.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_c130d3add894",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_ec03484b8fba",
+        "timestamp": "2023-12-01T10:37:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_87568c3a27bf",
+        "keystroke_features": {
+          "avg_key_dwell_time": 93.7,
+          "typing_speed": 82.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_8c1a9d7be219",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_67658f1e38a6",
+        "timestamp": "2023-12-01T09:56:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_abd36047e3ed",
+        "keystroke_features": {
+          "avg_key_dwell_time": 111.8,
+          "typing_speed": 87.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_e607179a5f15",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_6a179a5c03b8",
+        "timestamp": "2023-12-01T10:37:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_2a895dbffe62",
+        "keystroke_features": {
+          "avg_key_dwell_time": 122.8,
+          "typing_speed": 71.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_ad8ead43c1ba",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_fe1a933a7359",
+        "timestamp": "2023-12-01T10:20:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_1e5a2c6a1fe9",
+        "keystroke_features": {
+          "avg_key_dwell_time": 99.6,
+          "typing_speed": 64.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_496498b5b1e7",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_f760cd4bc2b6",
+        "timestamp": "2023-12-01T10:44:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_e7c4b95c4e53",
+        "keystroke_features": {
+          "avg_key_dwell_time": 113.6,
+          "typing_speed": 72.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_e80203369b67",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_579ae7654b17",
+        "timestamp": "2023-12-01T10:54:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_56f88b1a5510",
+        "keystroke_features": {
+          "avg_key_dwell_time": 104.6,
+          "typing_speed": 88.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_38efaa2bbd0c",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_8a07660b8a25",
+        "timestamp": "2023-12-01T09:13:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_611b9bc39f84",
+        "keystroke_features": {
+          "avg_key_dwell_time": 121.0,
+          "typing_speed": 86.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_7096fc86776e",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_46bc3f07e671",
+        "timestamp": "2023-12-01T10:47:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_8a88824d0397",
+        "keystroke_features": {
+          "avg_key_dwell_time": 113.4,
+          "typing_speed": 82.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_494a58837802",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_ef28d035906b",
+        "timestamp": "2023-12-01T09:55:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_96ba0a09f680",
+        "keystroke_features": {
+          "avg_key_dwell_time": 115.4,
+          "typing_speed": 68.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_55bb0bec2ae5",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "faculty",
+    "description": "faculty performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_a100ccc58287",
+        "timestamp": "2023-12-01T09:33:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_0a95ae524b3f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 124.3,
+          "typing_speed": 81.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_3a32727222ac",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_d46991d294f3",
+        "timestamp": "2023-12-01T09:38:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_5a32f5a0af01",
+        "keystroke_features": {
+          "avg_key_dwell_time": 114.5,
+          "typing_speed": 60.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_41fae9b54fb0",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_b331e17ea775",
+        "timestamp": "2023-12-01T10:37:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_39961d41a324",
+        "keystroke_features": {
+          "avg_key_dwell_time": 98.4,
+          "typing_speed": 79.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_840567ff6a01",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_517e978a21d7",
+        "timestamp": "2023-12-01T10:37:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_372c8f9fc4a0",
+        "keystroke_features": {
+          "avg_key_dwell_time": 120.1,
+          "typing_speed": 83.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_dc8106fecd79",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_55aa55cf896f",
+        "timestamp": "2023-12-01T09:42:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_35e949adb091",
+        "keystroke_features": {
+          "avg_key_dwell_time": 107.7,
+          "typing_speed": 84.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_ae1e810d0574",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_84578be4dfb6",
+        "timestamp": "2023-12-01T09:26:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_c3be7394aeae",
+        "keystroke_features": {
+          "avg_key_dwell_time": 113.8,
+          "typing_speed": 78.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_d9fd8ce922e7",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_2a2dff2a064f",
+        "timestamp": "2023-12-01T09:43:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_57cc7df6ad1b",
+        "keystroke_features": {
+          "avg_key_dwell_time": 123.5,
+          "typing_speed": 83.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_ef6462703b29",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_9d4f269277d5",
+        "timestamp": "2023-12-01T10:47:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_b1ccbe8bc617",
+        "keystroke_features": {
+          "avg_key_dwell_time": 115.7,
+          "typing_speed": 77.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_58bb715cbac8",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_0df8c34770ea",
+        "timestamp": "2023-12-01T09:15:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_e67c4fa932a0",
+        "keystroke_features": {
+          "avg_key_dwell_time": 85.2,
+          "typing_speed": 67.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_0cf346e68f7b",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_2da961ed2461",
+        "timestamp": "2023-12-01T09:47:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_940870e5a93c",
+        "keystroke_features": {
+          "avg_key_dwell_time": 117.8,
+          "typing_speed": 74.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_c20417368d2e",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_057c77460ffa",
+        "timestamp": "2023-12-01T10:31:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_92828097cb7f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 113.8,
+          "typing_speed": 85.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_cbdf6e59d23f",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_a7c2bf3c33bb",
+        "timestamp": "2023-12-01T09:51:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_8760bf1a0806",
+        "keystroke_features": {
+          "avg_key_dwell_time": 107.6,
+          "typing_speed": 87.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_ab4db30073dc",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_a1991f974b66",
+        "timestamp": "2023-12-01T10:50:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ab61e7851c97",
+        "keystroke_features": {
+          "avg_key_dwell_time": 123.6,
+          "typing_speed": 77.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_c14e47526645",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_f3b53f5e68d9",
+        "timestamp": "2023-12-01T10:29:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_eccb902f1f8a",
+        "keystroke_features": {
+          "avg_key_dwell_time": 108.7,
+          "typing_speed": 89.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_d2fd4609601c",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_32cad29d6db2",
+        "timestamp": "2023-12-01T10:27:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_15f37a8048b4",
+        "keystroke_features": {
+          "avg_key_dwell_time": 106.9,
+          "typing_speed": 64.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_6903e2d193be",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_02a890069700",
+        "timestamp": "2023-12-01T10:08:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_81db894298a5",
+        "keystroke_features": {
+          "avg_key_dwell_time": 110.4,
+          "typing_speed": 74.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_939c357597c6",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "faculty",
+    "description": "faculty performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_a772f5c445e0",
+        "timestamp": "2023-12-01T10:02:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_16789fc9795e",
+        "keystroke_features": {
+          "avg_key_dwell_time": 86.6,
+          "typing_speed": 87.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_0ef5fda2b6b2",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_11cac997b69c",
+        "timestamp": "2023-12-01T10:56:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_28e2363b89b2",
+        "keystroke_features": {
+          "avg_key_dwell_time": 95.0,
+          "typing_speed": 75.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_d4101e42f50a",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_e3183b113046",
+        "timestamp": "2023-12-01T10:55:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_d23d4866eba7",
+        "keystroke_features": {
+          "avg_key_dwell_time": 94.4,
+          "typing_speed": 62.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_9ea84c86e2a3",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_21332dcfe45e",
+        "timestamp": "2023-12-01T10:06:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_392a85a07b3d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 118.3,
+          "typing_speed": 74.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_1ad32cccc5e8",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_75e38f45f66a",
+        "timestamp": "2023-12-01T09:51:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_1ed01d92afc3",
+        "keystroke_features": {
+          "avg_key_dwell_time": 105.1,
+          "typing_speed": 80.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_7542b3ebb637",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "faculty",
+    "description": "faculty performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_64e569d1add6",
+        "timestamp": "2023-12-01T09:45:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_b37fa08feff7",
+        "keystroke_features": {
+          "avg_key_dwell_time": 85.4,
+          "typing_speed": 81.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_494c1ced8e7d",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_55a180f4b37f",
+        "timestamp": "2023-12-01T09:40:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_7d829f988634",
+        "keystroke_features": {
+          "avg_key_dwell_time": 114.9,
+          "typing_speed": 62.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_f2eec325d895",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_906d02253a99",
+        "timestamp": "2023-12-01T10:28:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_2e13aa866d01",
+        "keystroke_features": {
+          "avg_key_dwell_time": 88.4,
+          "typing_speed": 83.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_d64aba695d24",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_46747727bf5f",
+        "timestamp": "2023-12-01T10:56:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ea01eb5fc1b2",
+        "keystroke_features": {
+          "avg_key_dwell_time": 104.6,
+          "typing_speed": 62.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_cc53abf0ae61",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_5ac76e133199",
+        "timestamp": "2023-12-01T09:01:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_8870b49da7bc",
+        "keystroke_features": {
+          "avg_key_dwell_time": 119.4,
+          "typing_speed": 84.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_cd27c4a577f1",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "faculty",
+    "description": "faculty performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_1499aab5225f",
+        "timestamp": "2023-12-01T09:17:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_a9a86507a502",
+        "keystroke_features": {
+          "avg_key_dwell_time": 112.2,
+          "typing_speed": 63.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_4443a515ca97",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "faculty",
+    "description": "faculty performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_9caf9a422347",
+        "timestamp": "2023-12-01T09:13:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_6631f1fe6b29",
+        "keystroke_features": {
+          "avg_key_dwell_time": 94.3,
+          "typing_speed": 70.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_375f9908e1e7",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_d309721f6f8b",
+        "timestamp": "2023-12-01T09:54:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_a51e8d827b91",
+        "keystroke_features": {
+          "avg_key_dwell_time": 86.4,
+          "typing_speed": 78.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_4d863ac71fe6",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_d8090ad25ec1",
+        "timestamp": "2023-12-01T09:39:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_2a622b095ddd",
+        "keystroke_features": {
+          "avg_key_dwell_time": 100.8,
+          "typing_speed": 73.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_6622b0dd9bef",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_58f374b0b1e7",
+        "timestamp": "2023-12-01T09:29:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_fcfec3be4604",
+        "keystroke_features": {
+          "avg_key_dwell_time": 94.7,
+          "typing_speed": 75.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_40b4d5664de2",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_f7e280329143",
+        "timestamp": "2023-12-01T09:08:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_47aa5d24d76b",
+        "keystroke_features": {
+          "avg_key_dwell_time": 109.8,
+          "typing_speed": 87.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_7e46f5bd7dbd",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_a77db7bb1cb7",
+        "timestamp": "2023-12-01T10:30:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ad408492f2e7",
+        "keystroke_features": {
+          "avg_key_dwell_time": 94.4,
+          "typing_speed": 79.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_2af1aebf2403",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_d615cdf4c965",
+        "timestamp": "2023-12-01T10:11:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_cd4ddda76de2",
+        "keystroke_features": {
+          "avg_key_dwell_time": 101.2,
+          "typing_speed": 79.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_a5a907e9a7c8",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_27e6f7bf1fd4",
+        "timestamp": "2023-12-01T09:55:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_fadb517a02d4",
+        "keystroke_features": {
+          "avg_key_dwell_time": 90.6,
+          "typing_speed": 81.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_04e9ebdfbae7",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_6a2833181eff",
+        "timestamp": "2023-12-01T10:41:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_f023f197fd47",
+        "keystroke_features": {
+          "avg_key_dwell_time": 118.7,
+          "typing_speed": 84.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_91589b577e10",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_7694d2f4fd92",
+        "timestamp": "2023-12-01T09:40:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_96ca71919743",
+        "keystroke_features": {
+          "avg_key_dwell_time": 115.0,
+          "typing_speed": 82.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_427a1b134783",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_f516821dc2a0",
+        "timestamp": "2023-12-01T10:52:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_dfbd8e0bf08a",
+        "keystroke_features": {
+          "avg_key_dwell_time": 97.8,
+          "typing_speed": 74.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_c52a25acb01c",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_41c6a27f24e8",
+        "timestamp": "2023-12-01T09:29:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_c1766c00130e",
+        "keystroke_features": {
+          "avg_key_dwell_time": 104.7,
+          "typing_speed": 71.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_39c2392f4174",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "admin",
+    "description": "admin performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_fc58f6da3ccd",
+        "timestamp": "2023-12-01T09:20:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_61541db1a756",
+        "keystroke_features": {
+          "avg_key_dwell_time": 105.2,
+          "typing_speed": 85.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_d2f82fc40685",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "undergraduate",
+    "description": "undergraduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_8bd48b0ebb75",
+        "timestamp": "2023-12-01T09:25:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_f67127c9495f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 86.8,
+          "typing_speed": 76.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_f35290d5c910",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "faculty",
+    "description": "faculty performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_c524bab06e8f",
+        "timestamp": "2023-12-01T10:40:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_7bc689df9252",
+        "keystroke_features": {
+          "avg_key_dwell_time": 112.9,
+          "typing_speed": 66.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_b0e186d6cad2",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "research",
+    "description": "research performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_23fef7c2d6eb",
+        "timestamp": "2023-12-01T09:24:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_498a8cc6440e",
+        "keystroke_features": {
+          "avg_key_dwell_time": 91.8,
+          "typing_speed": 80.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_54272d5be3d4",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "graduate",
+    "description": "graduate performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_9a15dcb5e6b6",
+        "timestamp": "2023-12-01T09:21:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_444509040a53",
+        "keystroke_features": {
+          "avg_key_dwell_time": 121.0,
+          "typing_speed": 62.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_38fa9486c4f4",
+    "scenario_type": "role_specific",
+    "scenario_subtype": "grading",
+    "role_category": "faculty",
+    "description": "faculty performing workload-intensive tasks",
+    "authentication_events": [
+      {
+        "event_id": "auth_7d861c86ce56",
+        "timestamp": "2023-12-01T10:55:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": true
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_a4c92c2e01b2",
+        "keystroke_features": {
+          "avg_key_dwell_time": 121.8,
+          "typing_speed": 62.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "accept",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_0cddcbe0c268",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_ff750dac9ad1",
+        "timestamp": "2023-12-01T10:31:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_6378817390ca",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.9,
+          "typing_speed": 65.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_bb543bb05955",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_31eae127eb80",
+        "timestamp": "2023-12-01T10:08:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_266b78b38aec",
+        "keystroke_features": {
+          "avg_key_dwell_time": 123.9,
+          "typing_speed": 88.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_d30a8e7f0fdc",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "undergraduate",
+    "description": "Simulated unauthorized access for undergraduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_e5cb95733d5c",
+        "timestamp": "2023-12-01T09:59:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_944fc74438cb",
+        "keystroke_features": {
+          "avg_key_dwell_time": 99.0,
+          "typing_speed": 74.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_f2a80eee8d13",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_4244fa6d1b5d",
+        "timestamp": "2023-12-01T10:58:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_cb9a3f1c2806",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.5,
+          "typing_speed": 67.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_966d57bc9857",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_560fc5b48d47",
+        "timestamp": "2023-12-01T09:11:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ac66c1c00ac0",
+        "keystroke_features": {
+          "avg_key_dwell_time": 98.7,
+          "typing_speed": 78.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_e3e58a615fc8",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_ff9dce1c9e9c",
+        "timestamp": "2023-12-01T09:23:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ad8cf0b3293d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 123.6,
+          "typing_speed": 64.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_7054caaea6c1",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_05110ecae79c",
+        "timestamp": "2023-12-01T10:57:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_86bfde1bade0",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.1,
+          "typing_speed": 66.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_8ce20ab5dee5",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_5479e544e03b",
+        "timestamp": "2023-12-01T10:05:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_26855528e30a",
+        "keystroke_features": {
+          "avg_key_dwell_time": 97.1,
+          "typing_speed": 70.8
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_6fb4902e7b67",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_fc699321f248",
+        "timestamp": "2023-12-01T10:44:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_a9ab42542a8d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 110.1,
+          "typing_speed": 72.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_2aed95ad42ec",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_cd5f26f78f72",
+        "timestamp": "2023-12-01T10:08:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_af4e178cf50a",
+        "keystroke_features": {
+          "avg_key_dwell_time": 105.4,
+          "typing_speed": 74.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_71e991ca4fd3",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "undergraduate",
+    "description": "Simulated unauthorized access for undergraduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_acaf98eccf07",
+        "timestamp": "2023-12-01T10:48:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_292ca1588490",
+        "keystroke_features": {
+          "avg_key_dwell_time": 106.9,
+          "typing_speed": 69.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_33df1cdb46fc",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "undergraduate",
+    "description": "Simulated unauthorized access for undergraduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_fb411ca6a252",
+        "timestamp": "2023-12-01T09:03:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_7f7acb405a5d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 110.5,
+          "typing_speed": 74.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_b083a1fee32e",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_39e0545ebcb8",
+        "timestamp": "2023-12-01T09:29:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_0c2cfd583cd2",
+        "keystroke_features": {
+          "avg_key_dwell_time": 90.8,
+          "typing_speed": 63.2
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_d0b827d2ff84",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_79520558f61d",
+        "timestamp": "2023-12-01T10:46:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_881b1bd79c3f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 107.8,
+          "typing_speed": 63.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_265461198bfb",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "admin",
+    "description": "Simulated unauthorized access for admin",
+    "authentication_events": [
+      {
+        "event_id": "auth_27f3aca8e266",
+        "timestamp": "2023-12-01T09:08:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_28b161b5df66",
+        "keystroke_features": {
+          "avg_key_dwell_time": 96.9,
+          "typing_speed": 78.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_7b4e96c03dc8",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_76670c6fed68",
+        "timestamp": "2023-12-01T09:08:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_69bf27c6f581",
+        "keystroke_features": {
+          "avg_key_dwell_time": 89.6,
+          "typing_speed": 75.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_02f10ab8f628",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_1f24c1b51301",
+        "timestamp": "2023-12-01T10:08:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_96729eda9b59",
+        "keystroke_features": {
+          "avg_key_dwell_time": 96.4,
+          "typing_speed": 70.3
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_439c7ffd6dac",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_407dc5a25b29",
+        "timestamp": "2023-12-01T10:32:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_10b0d61cf2ff",
+        "keystroke_features": {
+          "avg_key_dwell_time": 86.4,
+          "typing_speed": 70.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_6143cb8ec9f7",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_83a41f618558",
+        "timestamp": "2023-12-01T10:14:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ef1ed53ce59f",
+        "keystroke_features": {
+          "avg_key_dwell_time": 107.4,
+          "typing_speed": 62.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_6fdf97311b38",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_345a732e6e22",
+        "timestamp": "2023-12-01T10:18:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "email",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ae9c4cc9f780",
+        "keystroke_features": {
+          "avg_key_dwell_time": 85.6,
+          "typing_speed": 68.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_dda7c504e761",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_7882f331d5f5",
+        "timestamp": "2023-12-01T09:40:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_bfcab5fcf470",
+        "keystroke_features": {
+          "avg_key_dwell_time": 98.3,
+          "typing_speed": 87.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_33a0b6a3c1d7",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_ee14f168b87f",
+        "timestamp": "2023-12-01T09:03:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_871bea07ccb0",
+        "keystroke_features": {
+          "avg_key_dwell_time": 119.1,
+          "typing_speed": 79.4
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_c38c6ed5204b",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_d64c6e33e0af",
+        "timestamp": "2023-12-01T09:59:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_da1d02e17e9a",
+        "keystroke_features": {
+          "avg_key_dwell_time": 108.2,
+          "typing_speed": 76.1
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "registration",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_211eba424d48",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "admin",
+    "description": "Simulated unauthorized access for admin",
+    "authentication_events": [
+      {
+        "event_id": "auth_8a53c9df5b5b",
+        "timestamp": "2023-12-01T10:06:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "lms",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_c447af90395d",
+        "keystroke_features": {
+          "avg_key_dwell_time": 98.1,
+          "typing_speed": 77.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "exam",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_aad35038920b",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "admin",
+    "description": "Simulated unauthorized access for admin",
+    "authentication_events": [
+      {
+        "event_id": "auth_688de98f3847",
+        "timestamp": "2023-12-01T10:31:00",
+        "device_type": "mobile",
+        "location_type": "on_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_26335aa541f9",
+        "keystroke_features": {
+          "avg_key_dwell_time": 109.3,
+          "typing_speed": 65.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_0538398ca90a",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_2262eaf87ec0",
+        "timestamp": "2023-12-01T09:14:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "sis",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_41fd343b0237",
+        "keystroke_features": {
+          "avg_key_dwell_time": 112.3,
+          "typing_speed": 81.5
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "low"
+    }
+  },
+  {
+    "scenario_id": "scen_afe6339f78f5",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "faculty",
+    "description": "Simulated unauthorized access for faculty",
+    "authentication_events": [
+      {
+        "event_id": "auth_87937e8e827d",
+        "timestamp": "2023-12-01T10:52:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "lms",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_400b4f4f31ba",
+        "keystroke_features": {
+          "avg_key_dwell_time": 103.6,
+          "typing_speed": 67.9
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "high"
+    }
+  },
+  {
+    "scenario_id": "scen_69337981e35e",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "research",
+    "description": "Simulated unauthorized access for research",
+    "authentication_events": [
+      {
+        "event_id": "auth_5be826cf06fb",
+        "timestamp": "2023-12-01T10:54:00",
+        "device_type": "laptop",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_25f56b9db005",
+        "keystroke_features": {
+          "avg_key_dwell_time": 95.4,
+          "typing_speed": 65.0
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_8070c70df891",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_28769593f9ff",
+        "timestamp": "2023-12-01T10:08:00",
+        "device_type": "laptop",
+        "location_type": "on_campus",
+        "service_accessed": "email",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_4dd1b7183eab",
+        "keystroke_features": {
+          "avg_key_dwell_time": 124.1,
+          "typing_speed": 69.7
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "regular_term",
+      "time_pressure_level": "medium"
+    }
+  },
+  {
+    "scenario_id": "scen_6c735e14248d",
+    "scenario_type": "attack",
+    "scenario_subtype": "credential_theft",
+    "role_category": "graduate",
+    "description": "Simulated unauthorized access for graduate",
+    "authentication_events": [
+      {
+        "event_id": "auth_c500b0457f4e",
+        "timestamp": "2023-12-01T09:36:00",
+        "device_type": "mobile",
+        "location_type": "off_campus",
+        "service_accessed": "research_db",
+        "success": false
+      }
+    ],
+    "behavioral_data": [
+      {
+        "session_id": "sess_ff65a61ef2ca",
+        "keystroke_features": {
+          "avg_key_dwell_time": 107.3,
+          "typing_speed": 60.6
+        },
+        "app_transition_sequence": [
+          {
+            "from": "email",
+            "to": "lms",
+            "timestamp": 1746132806
+          },
+          {
+            "from": "lms",
+            "to": "sis",
+            "timestamp": 1746132866
+          }
+        ]
+      }
+    ],
+    "expected_outcome": "reject",
+    "context_factors": {
+      "academic_calendar_period": "holiday",
+      "time_pressure_level": "low"
+    }
+  }
+]
